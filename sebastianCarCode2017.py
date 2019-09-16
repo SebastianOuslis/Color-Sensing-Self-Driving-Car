@@ -195,7 +195,7 @@ while True:
         #if keyValue == ord('q'):
         #    break;
         if GPIO.input(SHUT_OFF_INPUT) == 1:
-            print ("yarp")
+            print ("Shut Off Input")
             shutOff = True
             break
         #if the values are not test or blank
@@ -207,7 +207,7 @@ while True:
                 
         #time.sleep(0.1)
         if GPIO.input(SHUT_OFF_INPUT) == 1:
-            print ("yarp")
+            print ("Shut Off Input")
             shutOff = True
             break
         
